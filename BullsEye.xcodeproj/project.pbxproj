@@ -21,6 +21,7 @@
 		810CEDED19B6B8C00050CD7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810CEDCF19B6B8C00050CD7B /* UIKit.framework */; };
 		810CEDF519B6B8C00050CD7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 810CEDF319B6B8C00050CD7B /* InfoPlist.strings */; };
 		810CEDF719B6B8C00050CD7B /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810CEDF619B6B8C00050CD7B /* BullsEyeTests.m */; };
+		81ADBFC719BE9857005E57FD /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ADBFC619BE9857005E57FD /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		810CEDF219B6B8C00050CD7B /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		810CEDF419B6B8C00050CD7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		810CEDF619B6B8C00050CD7B /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		81ADBFC519BE9857005E57FD /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		81ADBFC619BE9857005E57FD /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				810CEDDA19B6B8C00050CD7B /* BLAppDelegate.h */,
 				810CEDDB19B6B8C00050CD7B /* BLAppDelegate.m */,
 				810CEDDD19B6B8C00050CD7B /* Main.storyboard */,
+				81ADBFC519BE9857005E57FD /* AboutViewController.h */,
+				81ADBFC619BE9857005E57FD /* AboutViewController.m */,
 				810CEDE019B6B8C00050CD7B /* BLViewController.h */,
 				810CEDE119B6B8C00050CD7B /* BLViewController.m */,
 				810CEDE319B6B8C00050CD7B /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				810CEDE219B6B8C00050CD7B /* BLViewController.m in Sources */,
 				810CEDDC19B6B8C00050CD7B /* BLAppDelegate.m in Sources */,
+				81ADBFC719BE9857005E57FD /* AboutViewController.m in Sources */,
 				810CEDD819B6B8C00050CD7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				810CEDFC19B6B8C00050CD7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		810CEDFD19B6B8C00050CD7B /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				810CEDFF19B6B8C00050CD7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
