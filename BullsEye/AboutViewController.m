@@ -14,4 +14,16 @@
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSString *htmlFile = [[NSBundle mainBundle]
+                          pathForResource:@"BullsEye" ofType:@"html"]; NSData *htmlData = [NSData dataWithContentsOfFile:htmlFile];
+    NSURL *baseURL = [NSURL fileURLWithPath:[
+                                             [NSBundle mainBundle] bundlePath]];
+    [self.webView loadData:htmlData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:baseURL];
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES; }
+
 @end
